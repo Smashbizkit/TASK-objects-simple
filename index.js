@@ -85,3 +85,29 @@ const movies =[{
  * Make sure it's a json format.
  */
 
+const x = newfile("movies.json",
+    {
+        "id" : 1 ,
+        "name" : "Bad boys for life" ,
+        "image" : "https://m.media-amazon.com/images/M/MV5BMWU0MGYwZWQtMzcwYS00NWVhLTlkZTAtYWVjOTYwZTBhZTBiXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg" ,
+        "rating" : "8"
+    } ,
+    {
+        "id" : 2 ,
+        "name" : "The Matrix" ,
+        "image" : "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg" ,
+        "rating" : "7"
+    } ,
+    {
+        "id" : 3 , 
+        "name" : "Titanic" ,
+        "image" : "https://upload.wikimedia.org/wikipedia/en/1/19/Titanic_%28Official_Film_Poster%29.png" ,
+        "rating" : "9"
+    } , 
+    {
+        "id" : 4 ,
+        "name" : "Too fast too furious" ,
+        "image" : "https://upload.wikimedia.org/wikipedia/en/9/9d/Two_fast_two_furious_ver5.jpg" ,
+        "rating" : "6"
+    }
+)
